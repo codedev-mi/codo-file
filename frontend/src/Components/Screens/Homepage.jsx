@@ -84,15 +84,6 @@ function Homepage() {
           // poss={{'flexDirection':'row-reverse'}}
           uniId={"uni"}
         />
-        <CodingPage
-          title="What We Earned?"
-          path="https://drive.google.com/file/d/1wynjrv73vmnbzIsonh8dfJy_SweR3sq1/view?usp=sharing"
-          // info={<>A <mark>Programmer</mark> has no Limitation towards <mark>Learning and Improving</mark> the World Through its Skills and Knowledge</>}
-          info={<>Achieved <mark><u>First</u></mark> position in <mark>Website Competition</mark> held in <mark>L.N College - Borivali(East).</mark> </>}
-          con="View Certificate"
-          image={MoreCod}
-          // poss={{'flexDirection':'row'}}
-        />
         <Feedback/>
         <Footer/>
         {/* <a href="http://" target="_blank" rel="noopener noreferrer"></a> */}
