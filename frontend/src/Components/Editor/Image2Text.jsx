@@ -65,6 +65,7 @@ function Image2Text() {
                 <div className="voicePlayground">
                 <mark><h1>Image to Text Converter</h1></mark><br/>
                   <main className='imageMain'>
+                    <img src={copy_icon} alt="copy" />
                     <img src={imagePath} className='Image-Logo' alt="logo" />
                     <input className='imagefiletype' type="file" onChange={handleChange} />
                     {/* <button onClick={handleClick} className='btn'>Convert To Text</button> */}
