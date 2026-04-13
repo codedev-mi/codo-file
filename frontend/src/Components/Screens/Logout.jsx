@@ -10,7 +10,7 @@ function Logout() {
     const history3 = useNavigate()
 
     useEffect(()=>{
-        fetch('http://localhost:5000/logout',{
+        fetch('https://codo-file.onrender.com/logout',{
             method:'GET',
             headers:{
                 "Content-Type":"application/json",
